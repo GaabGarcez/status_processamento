@@ -8,4 +8,4 @@ while True:
     ram_usage = psutil.virtual_memory().percent  # Percentual de uso da RAM
     print(f"Percentual CPU: {cpu_usage}%")
     print(f"Percentual de RAM: {ram_usage}%")
-    time.sleep(2)  # Atualiza a cada 1 segundo
+    time.sleep(0.5)  # Atualiza a cada 1 segundo
