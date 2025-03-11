@@ -8,4 +8,4 @@ while True:
     print(f"Percentual CPU: {cpu_usage}%")
     print(f"Percentual de RAM: {ram_usage}%")
     
-    time.sleep(0.5)  # Atualiza a cada 0.5 segundo
+    time.sleep(2)  # Atualiza a cada 0.5 segundo
